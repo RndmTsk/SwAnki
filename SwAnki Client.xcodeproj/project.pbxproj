@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5FD9A923D090E5001B92D1 /* VehicleStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FD9A823D090E5001B92D1 /* VehicleStatusView.swift */; };
+		FB5FD9AA23D090E5001B92D1 /* VehicleStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FD9A823D090E5001B92D1 /* VehicleStatusView.swift */; };
+		FB5FD9AC23D09212001B92D1 /* VehicleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FD9AB23D09212001B92D1 /* VehicleInfoView.swift */; };
+		FB5FD9AD23D09212001B92D1 /* VehicleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FD9AB23D09212001B92D1 /* VehicleInfoView.swift */; };
+		FBACEC2C23B90C3B0050975D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACEC2B23B90C3B0050975D /* AppDelegate.swift */; };
+		FBACEC2E23B90C3B0050975D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACEC2D23B90C3B0050975D /* SceneDelegate.swift */; };
+		FBACEC3023B90C3B0050975D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACEC2F23B90C3B0050975D /* ContentView.swift */; };
+		FBACEC3223B90C3D0050975D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBACEC3123B90C3D0050975D /* Assets.xcassets */; };
+		FBACEC3523B90C3D0050975D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBACEC3423B90C3D0050975D /* Preview Assets.xcassets */; };
+		FBACEC3823B90C3D0050975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBACEC3623B90C3D0050975D /* LaunchScreen.storyboard */; };
+		FBD8241823C75A3200DF7397 /* SwAnki in Frameworks */ = {isa = PBXBuildFile; productRef = FBD8241723C75A3200DF7397 /* SwAnki */; };
+		FBD8242023C7629500DF7397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8241F23C7629500DF7397 /* AppDelegate.swift */; };
+		FBD8242423C7629700DF7397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD8242323C7629700DF7397 /* Assets.xcassets */; };
+		FBD8242723C7629700DF7397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD8242623C7629700DF7397 /* Preview Assets.xcassets */; };
+		FBD8242A23C7629700DF7397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD8242823C7629700DF7397 /* Main.storyboard */; };
+		FBD8243023C762E300DF7397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACEC2F23B90C3B0050975D /* ContentView.swift */; };
+		FBD8243323C7630D00DF7397 /* SwAnki in Frameworks */ = {isa = PBXBuildFile; productRef = FBD8243223C7630D00DF7397 /* SwAnki */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB5FD9A823D090E5001B92D1 /* VehicleStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleStatusView.swift; sourceTree = "<group>"; };
+		FB5FD9AB23D09212001B92D1 /* VehicleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoView.swift; sourceTree = "<group>"; };
+		FBACEC2823B90C3B0050975D /* SwAnki iOS Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwAnki iOS Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBACEC2B23B90C3B0050975D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBACEC2D23B90C3B0050975D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBACEC2F23B90C3B0050975D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBACEC3123B90C3D0050975D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBACEC3423B90C3D0050975D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBACEC3723B90C3D0050975D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBACEC3923B90C3D0050975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBACEC3F23B90C6F0050975D /* SwAnki */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwAnki; sourceTree = "<group>"; };
+		FBD8241D23C7629500DF7397 /* SwAnki macOS Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwAnki macOS Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD8241F23C7629500DF7397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD8242323C7629700DF7397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD8242623C7629700DF7397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBD8242923C7629700DF7397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD8242B23C7629700DF7397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD8242C23C7629700DF7397 /* SwAnki_macOS_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwAnki_macOS_Client.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBACEC2523B90C3B0050975D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8241823C75A3200DF7397 /* SwAnki in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD8241A23C7629500DF7397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8243323C7630D00DF7397 /* SwAnki in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBACEC1F23B90C3B0050975D = {
+			isa = PBXGroup;
+			children = (
+				FBACEC3F23B90C6F0050975D /* SwAnki */,
+				FBFB3D5523C7C78A00FE5F33 /* Common */,
+				FBACEC2A23B90C3B0050975D /* SwAnki Client */,
+				FBD8241E23C7629500DF7397 /* SwAnki macOS Client */,
+				FBACEC2923B90C3B0050975D /* Products */,
+				FBD8241623C75A3200DF7397 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBACEC2923B90C3B0050975D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBACEC2823B90C3B0050975D /* SwAnki iOS Client.app */,
+				FBD8241D23C7629500DF7397 /* SwAnki macOS Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBACEC2A23B90C3B0050975D /* SwAnki Client */ = {
+			isa = PBXGroup;
+			children = (
+				FBACEC2B23B90C3B0050975D /* AppDelegate.swift */,
+				FBACEC2D23B90C3B0050975D /* SceneDelegate.swift */,
+				FBACEC3123B90C3D0050975D /* Assets.xcassets */,
+				FBACEC3623B90C3D0050975D /* LaunchScreen.storyboard */,
+				FBACEC3923B90C3D0050975D /* Info.plist */,
+				FBACEC3323B90C3D0050975D /* Preview Content */,
+			);
+			path = "SwAnki Client";
+			sourceTree = "<group>";
+		};
+		FBACEC3323B90C3D0050975D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBACEC3423B90C3D0050975D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBD8241623C75A3200DF7397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD8241E23C7629500DF7397 /* SwAnki macOS Client */ = {
+			isa = PBXGroup;
+			children = (
+				FBD8241F23C7629500DF7397 /* AppDelegate.swift */,
+				FBD8242323C7629700DF7397 /* Assets.xcassets */,
+				FBD8242823C7629700DF7397 /* Main.storyboard */,
+				FBD8242B23C7629700DF7397 /* Info.plist */,
+				FBD8242C23C7629700DF7397 /* SwAnki_macOS_Client.entitlements */,
+				FBD8242523C7629700DF7397 /* Preview Content */,
+			);
+			path = "SwAnki macOS Client";
+			sourceTree = "<group>";
+		};
+		FBD8242523C7629700DF7397 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBD8242623C7629700DF7397 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBFB3D5523C7C78A00FE5F33 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FBACEC2F23B90C3B0050975D /* ContentView.swift */,
+				FB5FD9A823D090E5001B92D1 /* VehicleStatusView.swift */,
+				FB5FD9AB23D09212001B92D1 /* VehicleInfoView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBACEC2723B90C3B0050975D /* SwAnki iOS Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBACEC3C23B90C3D0050975D /* Build configuration list for PBXNativeTarget "SwAnki iOS Client" */;
+			buildPhases = (
+				FBACEC2423B90C3B0050975D /* Sources */,
+				FBACEC2523B90C3B0050975D /* Frameworks */,
+				FBACEC2623B90C3B0050975D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwAnki iOS Client";
+			packageProductDependencies = (
+				FBD8241723C75A3200DF7397 /* SwAnki */,
+			);
+			productName = "SwAnki Client";
+			productReference = FBACEC2823B90C3B0050975D /* SwAnki iOS Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBD8241C23C7629500DF7397 /* SwAnki macOS Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD8242D23C7629700DF7397 /* Build configuration list for PBXNativeTarget "SwAnki macOS Client" */;
+			buildPhases = (
+				FBD8241923C7629500DF7397 /* Sources */,
+				FBD8241A23C7629500DF7397 /* Frameworks */,
+				FBD8241B23C7629500DF7397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwAnki macOS Client";
+			packageProductDependencies = (
+				FBD8243223C7630D00DF7397 /* SwAnki */,
+			);
+			productName = "SwAnki macOS Client";
+			productReference = FBD8241D23C7629500DF7397 /* SwAnki macOS Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBACEC2023B90C3B0050975D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rndm Studio";
+				TargetAttributes = {
+					FBACEC2723B90C3B0050975D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FBD8241C23C7629500DF7397 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FBACEC2323B90C3B0050975D /* Build configuration list for PBXProject "SwAnki Client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBACEC1F23B90C3B0050975D;
+			productRefGroup = FBACEC2923B90C3B0050975D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBACEC2723B90C3B0050975D /* SwAnki iOS Client */,
+				FBD8241C23C7629500DF7397 /* SwAnki macOS Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBACEC2623B90C3B0050975D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBACEC3823B90C3D0050975D /* LaunchScreen.storyboard in Resources */,
+				FBACEC3523B90C3D0050975D /* Preview Assets.xcassets in Resources */,
+				FBACEC3223B90C3D0050975D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD8241B23C7629500DF7397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8242A23C7629700DF7397 /* Main.storyboard in Resources */,
+				FBD8242723C7629700DF7397 /* Preview Assets.xcassets in Resources */,
+				FBD8242423C7629700DF7397 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBACEC2423B90C3B0050975D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBACEC2C23B90C3B0050975D /* AppDelegate.swift in Sources */,
+				FBACEC2E23B90C3B0050975D /* SceneDelegate.swift in Sources */,
+				FBACEC3023B90C3B0050975D /* ContentView.swift in Sources */,
+				FB5FD9A923D090E5001B92D1 /* VehicleStatusView.swift in Sources */,
+				FB5FD9AC23D09212001B92D1 /* VehicleInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD8241923C7629500DF7397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8243023C762E300DF7397 /* ContentView.swift in Sources */,
+				FB5FD9AA23D090E5001B92D1 /* VehicleStatusView.swift in Sources */,
+				FBD8242023C7629500DF7397 /* AppDelegate.swift in Sources */,
+				FB5FD9AD23D09212001B92D1 /* VehicleInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBACEC3623B90C3D0050975D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBACEC3723B90C3D0050975D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD8242823C7629700DF7397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD8242923C7629700DF7397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBACEC3A23B90C3D0050975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBACEC3B23B90C3D0050975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBACEC3D23B90C3D0050975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwAnki Client/Preview Content\"";
+				DEVELOPMENT_TEAM = J97ERPPGEW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwAnki Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.studio.rndm.SwAnki-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBACEC3E23B90C3D0050975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwAnki Client/Preview Content\"";
+				DEVELOPMENT_TEAM = J97ERPPGEW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwAnki Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.studio.rndm.SwAnki-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBD8242E23C7629700DF7397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwAnki macOS Client/SwAnki_macOS_Client.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwAnki macOS Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwAnki macOS Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.studio.rndm.SwAnki-macOS-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBD8242F23C7629700DF7397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwAnki macOS Client/SwAnki_macOS_Client.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwAnki macOS Client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwAnki macOS Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.studio.rndm.SwAnki-macOS-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBACEC2323B90C3B0050975D /* Build configuration list for PBXProject "SwAnki Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBACEC3A23B90C3D0050975D /* Debug */,
+				FBACEC3B23B90C3D0050975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBACEC3C23B90C3D0050975D /* Build configuration list for PBXNativeTarget "SwAnki iOS Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBACEC3D23B90C3D0050975D /* Debug */,
+				FBACEC3E23B90C3D0050975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD8242D23C7629700DF7397 /* Build configuration list for PBXNativeTarget "SwAnki macOS Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD8242E23C7629700DF7397 /* Debug */,
+				FBD8242F23C7629700DF7397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBD8241723C75A3200DF7397 /* SwAnki */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwAnki;
+		};
+		FBD8243223C7630D00DF7397 /* SwAnki */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwAnki;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FBACEC2023B90C3B0050975D /* Project object */;
+}
